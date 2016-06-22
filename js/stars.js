@@ -10,7 +10,7 @@ function drawing() {
 
     var hmTimes = Math.round(xMax + yMax);
 
-    for (var i = 0; i <= hmTimes / 3; i++) {
+    for (var i = 0; i <= hmTimes / 10; i++) {
         var randomX = Math.floor((Math.random() * xMax) + 1);
         var randomY = Math.floor((Math.random() * yMax) + 1);
         var randomSize = Math.floor((Math.random() * 2) + 1);
