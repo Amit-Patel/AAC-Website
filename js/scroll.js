@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.scroll_wrapper').fullpage(
         {
-            sectionSelector: '.page'
+            sectionSelector: '.page',
+            scrollBar: true,
         }
     );
 });

@@ -7,31 +7,20 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    background-color: transparent;
 
 }
 
-#landing {
-    background-color: #0d1321;
+.scroll_wrapper {
+    background: linear-gradient(to bottom, #020619, #6998ff);
 }
 
-#about {
-    background-color: #f0ebd8;
-}
-
-#events {
-    background-color: #1d2d44;
-}
-
-#photography {
-    background-color: #3e5c76;
-}
-
-#blog {
-    background-color: #0d1321;
-}
-
-#contact {
-    background-color: #f0ebd8;
+.content_wrapper {
+    height: 80vh;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    background-color: transparent;
 }
 
 #stars {
@@ -40,10 +29,29 @@
     height: 100%;
     width: 100%;
 
-    background-color: #0d1321;
+    background-color: transparent;
     overflow: hidden;
 
 }
 
+header, footer {
+    font-family: "Blogger Sans Light", Helvetica, sans-serif;
+    font-size: 12px;
+    width: 50%;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 25%;
+    position: fixed;
+    color: #f0ebd8;
+    z-index: 2;
+}
 
+header {
+    margin-top: 3vh;
+
+}
+
+footer {
+    margin-top: 94vh;
+}
 
