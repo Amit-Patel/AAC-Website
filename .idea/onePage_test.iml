@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery-3.0.0" level="application" />
+    <orderEntry type="library" name="jquery.color-2.1.0" level="application" />
   </component>
 </module>
