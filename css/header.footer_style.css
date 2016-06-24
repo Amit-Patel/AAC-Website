@@ -8,6 +8,12 @@
     src: url('../fonts/SIMPLIFICA Typeface.ttf');
 }
 
+@font-face {
+    font-family: 'Blogger Sans Light';
+    src: url('../fonts/BSL.ttf');
+}
+
+
 header, footer {
     font-family: "Blogger Sans Light", Helvetica, sans-serif;
     font-size: 14px;
