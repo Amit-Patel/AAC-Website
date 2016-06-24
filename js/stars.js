@@ -13,7 +13,7 @@ function drawing(id, reduceAmount) {
     for (var i = 0; i <= hmTimes / reduceAmount; i++) {
         var randomX = Math.floor((Math.random() * xMax) + 1);
         var randomY = Math.floor((Math.random() * yMax) + 1);
-        var randomSize = Math.floor((Math.random() * 3) + 1);
+        var randomSize = Math.floor((Math.random() * 2) + 1);
         //var randomOpacityOne = Math.floor((Math.random() * 9) + 1);
         //var randomOpacityTwo = Math.floor((Math.random() * 9) + 1);
         //var randomHue = Math.floor((Math.random() * 360) + 1);
@@ -31,6 +31,6 @@ function drawing(id, reduceAmount) {
 }
 drawing('stars1', 15);
 drawing('stars2', 25);
-drawing('stars3', 45);
+//drawing('stars3', 45);
 //drawing('stars4', 85);
 //drawing('stars5', 150);
