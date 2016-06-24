@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
 	<link rel="stylesheet" type="text/css" href="css/header.footer_style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bg_color.css"/>
 </head>
 <body>
 <header>
@@ -13,37 +14,58 @@
 		<li data-menuanchor="home" class="active" onclick="$.fn.fullpage.moveTo('home', 0)">Home</li>
 		<li data-menuanchor="about" onclick="$.fn.fullpage.moveTo('about', 0)">About</li>
 		<li data-menuanchor="events" onclick="$.fn.fullpage.moveTo('events', 0)">Events</li>
-		<li data-menuanchor="photography" onclick="$.fn.fullpage.moveTo('photography', 0)">Photography
-		</li>
+		<li data-menuanchor="photography" onclick="$.fn.fullpage.moveTo('photography', 0)">Photography</li>
 		<li data-menuanchor="blog" onclick="$.fn.fullpage.moveTo('blog', 0)">Blog</li>
 		<li data-menuanchor="contact" onclick="$.fn.fullpage.moveTo('contact', 0)">Contact</li>
 	</ul>
 </header>
 <footer>Footer and Social</footer>
-<div class="scroll_wrapper">
+<div class="scroll_wrapper bg_color">
 
 
 	<div class="page" id='home'>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars1"></canvas>
+			<div class="content_wrapper">
 
-		<canvas class="stars" id="stars1"></canvas>
+			</div>
+		</div>
+
 
 	</div>
 	<div class="page" id='about'>
 
-		<canvas class="stars" id="stars2"></canvas>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars2"></canvas>
+			<div class="content_wrapper"></div>
+		</div>
 
 
 	</div>
 	<div class="page" id='events'>
-		<canvas class="stars" id="stars3"></canvas>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars3"></canvas>
+			<div class="content_wrapper"></div>
+		</div>
 	</div>
 	<div class="page" id='photography'>
-		<canvas class="stars" id="stars4"></canvas>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper"></div>
+		</div>
 	</div>
 	<div class="page" id='blog'>
-		<canvas class="stars" id="stars5"></canvas>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper"></div>
+		</div>
 	</div>
-	<div class="page" id='contact'></div>
+	<div class="page" id='contact'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper"></div>
+		</div>
+	</div>
 
 
 </div>

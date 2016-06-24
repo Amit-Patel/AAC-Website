@@ -1,7 +1,7 @@
 #AAC
-Scroll-Enabled AAC webpage Structure for 6 pages
+AAC website in the making
 
-Stars demo Test
+Read commit messages for development comments
 
 Using: Full page Scroll
 https://github.com/alvarotrigo/fullPage.js

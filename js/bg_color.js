@@ -6,6 +6,9 @@ $(document).ready(function () {
     //** notice we are including jquery and the color plugin at 
     //** http://code.jquery.com/color/jquery.color-2.1.0.js
 
+    var alpha = 0.5;
+    var solidSelector = '.bg_color';
+    var translucentSelector = '.bg_color--translucent';
     var scroll_pos = 0;
     var animation_begin_pos = 0; //where you want the animation to begin
     var animation_end_pos = $(document).height(); //where you want the animation to stop
@@ -23,11 +26,15 @@ $(document).ready(function () {
             var newBlue = beginning_color.blue() + ( ( ending_color.blue() - beginning_color.blue() ) * percentScrolled );
             var newColor = new $.Color(newRed, newGreen, newBlue);
             //console.log( newColor.red(), newColor.green(), newColor.blue() );
-            $('.scroll_wrapper').animate({backgroundColor: newColor}, 0);
+            $(solidSelector).animate({backgroundColor: newColor}, 0);
+            $(translucentSelector).animate({backgroundColor: newColor.alpha(alpha)}, 0);
         } else if (scroll_pos > animation_end_pos) {
-            $('.scroll_wrapper').animate({backgroundColor: ending_color}, 0);
+            $(solidSelector).animate({backgroundColor: ending_color}, 0);
+            $(translucentSelector).animate({backgroundColor: ending_color.alpha(alpha)}, 0);
+            
         } else if (scroll_pos < animation_begin_pos) {
-            $('.scroll_wrapper').animate({backgroundColor: beginning_color}, 0);
+            $(solidSelector).animate({backgroundColor: beginning_color}, 0);
+            $(translucentSelector).animate({backgroundColor: beginning_color.alpha(alpha)}, 0);
         } else {
         }
     });

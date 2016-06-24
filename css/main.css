@@ -14,21 +14,29 @@
 
 /* color before loading JS files or for JS disabled browser */
 .scroll_wrapper {
+    position: absolute;
     background-color: #020619;
 
 }
 
 .content_wrapper {
-    height: 80vh;
-    top: auto;
-    bottom: auto;
+    position: absolute;
+    height: 82vh;
+    top: 10vh;
     width: 100%;
     background-color: transparent;
 }
 
+.page_wrapper {
+    height: 100%;
+    position: relative;
+}
+
 .stars {
+    position: absolute;
     margin: 0;
     padding: 0;
+    top: 0;
     height: 100%;
     width: 100%;
 
