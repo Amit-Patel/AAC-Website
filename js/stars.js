@@ -32,5 +32,5 @@ function drawing(id, reduceAmount) {
 drawing('stars1', 15);
 drawing('stars2', 25);
 drawing('stars3', 45);
-drawing('stars4', 85);
-drawing('stars5', 150);
+//drawing('stars4', 85);
+//drawing('stars5', 150);

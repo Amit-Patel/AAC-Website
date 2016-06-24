@@ -3,6 +3,9 @@ $(document).ready(function () {
         {
             sectionSelector: '.page',
             scrollBar: true,
+            anchors: ['home', 'about', 'events', 'photography', 'blog', 'contact'],
+            menu: '#menu',
+            css3: true
         }
     );
 });

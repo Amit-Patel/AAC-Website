@@ -12,13 +12,11 @@
 
 }
 
-/*
+/* color before loading JS files or for JS disabled browser */
 .scroll_wrapper {
-    background: linear-gradient(#020619, #93b3d0)
+    background-color: #020619;
 
 }
-*/
-
 
 .content_wrapper {
     height: 80vh;
@@ -37,26 +35,5 @@
     background-color: transparent;
     overflow: hidden;
 
-}
-
-header, footer {
-    font-family: "Blogger Sans Light", Helvetica, sans-serif;
-    font-size: 12px;
-    width: 50%;
-    background-color: transparent;
-    text-align: center;
-    margin-left: 25%;
-    position: fixed;
-    color: #f0ebd8;
-    z-index: 2;
-}
-
-header {
-    margin-top: 3vh;
-
-}
-
-footer {
-    margin-top: 94vh;
 }
 

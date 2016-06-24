@@ -4,14 +4,26 @@
 	<meta charset="UTF-8">
 	<title>AAC Test</title>
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="css/header.footer_style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
+<header>
+	<ul id="menu">
+		<li data-menuanchor="home" class="active" onclick="$.fn.fullpage.moveTo('home', 0)">Home</li>
+		<li data-menuanchor="about" onclick="$.fn.fullpage.moveTo('about', 0)">About</li>
+		<li data-menuanchor="events" onclick="$.fn.fullpage.moveTo('events', 0)">Events</li>
+		<li data-menuanchor="photography" onclick="$.fn.fullpage.moveTo('photography', 0)">Photography
+		</li>
+		<li data-menuanchor="blog" onclick="$.fn.fullpage.moveTo('blog', 0)">Blog</li>
+		<li data-menuanchor="contact" onclick="$.fn.fullpage.moveTo('contact', 0)">Contact</li>
+	</ul>
+</header>
+<footer>Footer and Social</footer>
 <div class="scroll_wrapper">
 
-	<header>Header and Nav</header>
-	<footer>Footer and Social</footer>
-	<div class="page" id='landing'>
+
+	<div class="page" id='home'>
 
 		<canvas class="stars" id="stars1"></canvas>
 
@@ -36,7 +48,7 @@
 
 </div>
 
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
 
 <!-- imports -->
@@ -45,7 +57,7 @@
 
 
 <!-- Other Scripts -->
-<script src="js/scroll.js"></script>
+<script src="js/fullPage_init.js"></script>
 
 <script src="js/bg_color.js"></script>
 <script src="js/stars.js"></script>

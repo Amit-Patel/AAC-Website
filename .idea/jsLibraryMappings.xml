@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{jquery-3.0.0, jquery.color-2.1.0}" />
+    <file url="PROJECT" libraries="{jquery-3.0.0, jquery-latest, jquery.color-2.1.0}" />
   </component>
 </project>
