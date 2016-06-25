@@ -7,16 +7,18 @@ $(document).ready(function () {
             menu: '#menu',
             css3: true,
 
+
+            /* Temproray Solution Replace with scroll magic or other scroll plugins */
             onLeave: function (index, nextIndex, direction) {
                 if (nextIndex == 1) {
                     $('header').animate({
                         top: "+=58vh",
-                    }, 400);
+                    }, 700);
                 }
                 else if (index == 1) {
                     $('header').animate({
                         top: "-=58vh",
-                    }, 400);
+                    }, 700);
                 }
             },
         }

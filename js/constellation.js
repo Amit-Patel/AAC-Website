@@ -38,7 +38,7 @@ $('#home').mousemove(function (e) {
     if (x < w / 3 && y < h / 2) {
         fade_func('#o1');
     }
-    else if (x < 2 * w / 3 && x > w / 3 && y < h / 2) {
+    else if (x < 2 * w / 3 && x > w / 3) {
         fade_func('#AAC_overlay');
     }
     else if (x > 2 * w / 3 && y < h / 2) {
