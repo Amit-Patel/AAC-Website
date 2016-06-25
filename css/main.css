@@ -25,6 +25,7 @@
     top: 10vh;
     width: 100%;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .page_wrapper {
@@ -60,4 +61,8 @@
 
 #landing_subTitle {
     margin-top: 38vh;
+}
+
+* {
+    font-family: "Blogger Sans Light", Helvetica, sans-serif;
 }
