@@ -13,12 +13,12 @@ $(document).ready(function () {
                 if (nextIndex == 1) {
                     $('header').animate({
                         top: "+=58vh",
-                    }, 700);
+                    }, 700, 'easeInOutCubic');
                 }
                 else if (index == 1) {
                     $('header').animate({
                         top: "-=58vh",
-                    }, 700);
+                    }, 700, 'easeInOutCubic');
                 }
             },
         }
