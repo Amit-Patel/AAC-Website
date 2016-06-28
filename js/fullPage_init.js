@@ -21,6 +21,7 @@ $(document).ready(function () {
                     }, 700, 'easeInOutCubic');
                 }
             },
+
         }
     );
 });
