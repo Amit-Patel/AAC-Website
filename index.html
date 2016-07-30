@@ -8,6 +8,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,500,700,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
 
@@ -17,6 +19,10 @@
 	<link rel="stylesheet" type="text/css" href="css/constellations.css"/>
 	<link rel="stylesheet" type="text/css" href="css/astro_photos.css"/>
 	<link rel="stylesheet" type="text/css" href="css/timeline.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.print.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullcalendar.css"/>
+	<link rel="stylesheet" type="text/css" href="css/events.css"/>
 
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
@@ -141,9 +147,83 @@
 	<div class="page" id='events'>
 		<div class="page_wrapper">
 			<canvas class="stars" id="stars3"></canvas>
-			<div class="content_wrapper"></div>
+			<div class="content_wrapper">
+
+				<div class="section">
+					<div class="slide">
+						<div class="eventsbg">
+							<img class="eventsbg" src="img/eventsbg.jpg" width="1000" height="480">
+						</div>
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/sample1.jpg" width="400" height="400">
+							<img class="mySlides" src="http://www.astronomy.com/-/media/Images/Year%20of%20Pluto/voyagerspacecraft.jpg?mw=600" width="400" height="400">
+							<img class="mySlides" src="http://www.universetoday.com/wp-content/uploads/2011/06/557354main_iss027e036710_1600_1024-768.jpg" width="400" height="400">
+							<img class="mySlides" src="http://astro.cornell.edu/img/large/rover3_2.jpg" width="400" height="400">
+						</div>
+						<div class="module mid">
+  							<h2>Bhoomiyan Text. Hi this is Bhoomiyan from AAC. Exotic snow capped mountains stretching across the dark expanse on Pluto were discovered by our New Horizons team. Scientists think that methane condensed as ice onto the peaks from Pluto's atmosphere. 
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>AAC BHOOMIYAN</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>
+
+					<div class="slide">
+						<img id="slide-2" src="http://static.simpledesktops.com/uploads/desktops/2013/02/01/Solar.png" style="position:relative" width="860" height="480" />
+						<div class="vertical-text">AAC BHOOMIYAN
+						</div>
+					</div>
+					<div class="slide">
+						<img id="slide-3" src="https://userscontent2.emaze.com/images/892d0a19-a789-4be7-bf4b-75cedf46b4c6/6041590294c1ed553275855d5c9efd0d.jpg" style="position:relative" width="1000" height="480"/>
+					</div>
+					<div class="slide">
+						<div class="slidetext1">EVERYTHING
+							</div>
+						<div class="slidetext2">RIGHT
+							</div>
+						<div class="slidetext3">HERE
+							</div>
+						<a id="trianglehover" href="../AAC-Website-Master/AAC%20Calendar.html">
+						<shape id="triangle-right">
+							</shape>
+						</a>
+				
+						<div class="smalltilerow">
+							<div class="small-tiles-row-1" id="small-tile-1">A
+								</div>
+							<div class="small-tiles-row-1" id="small-tile-rest"> A
+								</div>
+							<div class="small-tiles-row-1" id="small-tile-rest">C
+								</div>
+							</div>
+						<div class="smalltilerow">
+							<div class="small-tiles-row-2" id="small-tile-rest">C
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">A
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">L
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">E
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">N
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">D
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">A
+								</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">R
+								</div>
+							</div>
+					</div>		
+				</div>
+			</div>	
 		</div>
 	</div>
+	
 	<div class="page" id='photography'>
 		<div class="page_wrapper">
 
@@ -226,6 +306,9 @@
 <script src="js/bg_color.js"></script>
 <script src="js/stars.js"></script>
 <script src="js/constellation.js"></script>
+<script src="js/events.js"></script>
+<script src="js/fullcalendar.js"></script>
+<script src="js/fullcalendar.min.js"></script>
 
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -239,17 +322,13 @@
 <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 
 <script type="text/javascript">
-
-
 	<!-- Customize before publishing -->
-
 	$(".fancybox").fancybox({
 		'transitionIn': 'elastic',
 		'transitionOut': 'elastic',
 		'speedIn': 600,
 		'speedOut': 200,
 		padding: 3,
-
 		helpers: {
 			title: {
 				type: 'outside'
