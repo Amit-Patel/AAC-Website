@@ -1,0 +1,150 @@
+
+.eventsbg{
+	position:absolute;
+	z-index: -1;
+	margin-left: 65px;
+	margin-top:-10px;
+}
+
+.slide{
+	margin-top:-40px;	
+}
+
+.tiles{
+  position:relative;
+  margin-top:10px;
+  margin-left: 225px;
+  width:400px;
+  height:400px;
+  background:#333;
+  float:left;
+}
+
+#calendar:hover{
+	color:#333;
+
+}
+
+#slide-3{
+	margin-left: 135px;
+
+}
+
+.vertical-text{
+	color:white;
+	writing-mode: tb-rl;
+	margin-top: 40px;
+	margin-left: 135px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom: 30px;
+	padding-top:40px;
+	font-size:50px;
+	float:left;
+	background-color: #333;
+}
+
+#picture-tile-2{
+	margin-left:15px;
+	float:left;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+     url(../img/sample2.jpg);
+
+}
+
+.top h1, .mid h2 {
+  font-family: 'Dosis', sans-serif;
+  position: absolute;	
+  color: white;
+  margin: 0;
+  font-size:40px;
+  width:360px;
+  padding-top:30px;
+  padding-left: 740px;
+  z-index:1;
+}
+
+.mid h2 {
+  padding-left: 680px;
+  font-size:20px;
+  padding-top:110px;
+}
+
+.small-tiles-row-1{
+  position: relative;
+  width:50px;
+  height:50px;
+  background:#333;
+  float:left;
+  font-size:40px;
+  color:white;
+
+}
+
+.small-tiles-row-2{
+  position: absolute;
+  margin-top: 60px;
+  width:50px;
+  height:50px;
+  background:white;
+  float:left;
+  font-size:40px;
+  color:#575A5C;
+}
+
+#small-tile-1{
+  margin-left: 285px;
+}
+
+#small-tile-rest{
+  position:relative;
+  margin-left: 10px;
+}
+
+.slidetext1{
+	position:absolute;
+	margin-left:465px;
+	margin-top: -70px;
+	letter-spacing: 10px;
+	font-family: 'Dosis', sans-serif;
+	font-size:100px;
+	color:white;
+	font-weight:200;
+}
+
+.slidetext2{
+	position:absolute;
+	margin-left:285px;
+	margin-top: 50px;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 7px;
+	font-size:58px;
+	color:#333;
+	font-weight:200;
+}
+
+.slidetext3{
+	position:absolute;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:50px;
+	color:white;
+	margin-left:465px;
+	margin-top: 120px;
+}
+
+#triangle-right{
+	position:absolute;
+	border-top: 10px solid transparent;
+	border-left: 25px solid white;
+	border-bottom: 15px solid transparent;
+	margin-top: 140px;
+	margin-left:605px;
+	-webkit-transform: rotate(10deg);
+}
+
+#triangle-right:hover{
+	border-left: 25px solid #333;
+}
