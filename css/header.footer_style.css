@@ -46,3 +46,27 @@ footer {
 #menu li.active {
     border-bottom: 2px solid white;
 }
+
+footer img {
+    display: inline-block;
+    width: 3vh;
+    height:3vh;
+    padding-top: 10px;
+    position: relative;
+    bottom:0.5vh;
+
+}
+#fb{
+    width: 3vh;
+    height:2.5vh;
+}
+footer .link
+{
+    font-family: Montserrat, serif;
+    font-size:18px;
+    padding-right: 4%;
+    padding-bottom: 10px;
+    position: relative;
+    bottom:1vh;
+
+}
