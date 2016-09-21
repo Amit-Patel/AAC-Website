@@ -79,6 +79,7 @@
     font-size:18px;
 
 
+
 }
 .inquiry .data .sig {
     font-weight: 700;
@@ -88,7 +89,8 @@
 .inquiry #inq-head
 
 {
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size:26px;
+    text-transform: uppercase;
 
 }
