@@ -1,14 +1,3 @@
 #AAC
-AAC website in the making
-
-Read commit messages for development comments
-
-Using: 
-
-Full page Scroll
-https://github.com/alvarotrigo/fullPage.js
-
-fancybox for images
-http://fancyapps.com/fancybox/
-
+Moved to: https://github.com/amateur-astronomy-club/amateur-astronomy-club.github.io
 
